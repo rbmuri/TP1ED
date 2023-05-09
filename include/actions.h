@@ -23,7 +23,7 @@ bool isvalid(string array[]){
     if (strver(array[u])=='o'){
       if (i<2) return false;
       i--;
-    } else if (strver(array[u])=='n')){
+    } else if (strver(array[u])=='n'){
       i++;
     }
     u++;
