@@ -32,9 +32,7 @@ bool isvalid(string array[]){
   if (i!=1) return false;
   return true;
 }
-bool isvalid(string str, int &i){
-  
-}
+
 
 char strver(char c){
   if (c=='*' || c=='+' || c=='-' || c=='/'){
